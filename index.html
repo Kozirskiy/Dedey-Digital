@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedey Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="filter" id="filter">
+        <div class="container">
+            <h1 class="projectTittle">Test project for Dedey Digital
+            </h1>
+            <div class="fiter__wrapper d-flex">
+
+                <div class="filter__searchPlace ">
+                    <p class="filter__searchPlace_text styleFilter" >
+                        Место или название отеля
+                    </p>
+                    <div class="filter__searchPlace_location d-flex" >
+                        <img src="img/geoLocation.png" alt="geo" class="filter__searchPlace_location-img">
+                        <input  type="text" placeholder="Введите здесь место" class="filter__searchPlace_location_after" tabindex="1">
+                    </div>
+                </div>
+
+
+                <div class="filter__date">
+                    <div class="filter__date_boxDate d-flex">
+                        <div class="filter__date_in" >
+                        
+                            <p class="filter__date_in_text styleFilter">
+                                Заезд
+                            </p>
+                            <div class="filter__date_date d-flex" tabindex="2">
+                                <img src="img/calendar.png" alt="calendar" class="">
+                                <div class="filter__date_date_wrap ">
+                                    <button class="calendarBtn"> 
+                                        07 февраля
+                                    </button>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="filter__date_out">
+                            <p class="filter__date_in_text styleFilter">
+                                Выезд
+                            </p>
+                            <div class="filter__date_date_date d-flex" tabindex="3">
+                                <button class="calendarBtn2"> 
+                                    22 февраля 
+                                </button>
+                                <img src="img/down.png" alt="down" class="calendarBtn2">
+                            </div>
+                            
+                        </div>
+                    </div>
+                   
+                    <div class="calendarik d-flex">
+                        <input type="date" class="hide" id="calend" >
+                        <input type="date" id="calend2" class="hide2" >
+                    </div>
+                </div>
+
+                <div class="filter__people d-flex">
+                    <div class="filter__people_number">
+                        <p class="filter__people_number_text">
+                            Номера
+                        </p>
+                        <div class="filter__people_box d-flex">
+                            <div class="filter__people_box_arrow counter d-flex"  >
+                                <input type="text" value="1" class="counter-value"  id="number" tabindex="4">
+                                <button class="counterBtn upMove" data-direction="plus" id="up"><img src="img/upYellow.png" alt="up" ></button>
+                                <button class="counterBtn" data-direction="minus" id="down"><img src="img/downGrey.png" alt="down" ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter__people_number">
+                        <p class="filter__people_number_text">
+                            Взрослые
+                        </p>
+                        <div class="filter__people_box d-flex">
+                            <div class="filter__people_box_arrow counter d-flex" >
+                                <input type="text" value="1" class="counter-value"  id="number" tabindex="5">
+                                <button class="counterBtn upMove" data-direction="plus" id="up"><img src="img/upYellow.png" alt="up" ></button>
+                                <button class="counterBtn" data-direction="minus" id="down"><img src="img/downGrey.png" alt="down" ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter__people_number">
+                        <p class="filter__people_number_text">
+                            Дети
+                        </p>
+                        <div class="filter__people_box d-flex">
+                            <div class="filter__people_box_arrow counter d-flex" >
+                                <input type="text" value="0" class="counter-value"  id="number" tabindex="6">
+                                <button class="counterBtn upMove" data-direction="plus" id="up"><img src="img/upYellow.png" alt="up" ></button>
+                                <button class="counterBtn" data-direction="minus" id="down"><img src="img/downGrey.png" alt="down" ></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter__button_plus" tabindex="7">
+                        <button >
+                            <img src="img/plus.png" alt="plus">
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="filter__button" tabindex="8">
+                    <button class="btn" >
+                        Найти
+                    </button>
+                </div>
+
+
+
+
+                
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
